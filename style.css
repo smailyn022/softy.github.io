@@ -1,0 +1,767 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,700;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+}
+
+header{
+    background-color: transparent;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+
+
+#logo img{
+    height: 50px;
+    width: auto;
+}
+
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a{
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+
+nav ul li :hover{
+    padding: 8px;
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(0, 153, 255);
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+#titulo{
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 100px;
+    position: relative;
+}
+
+
+#titulo h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 150px;
+    color: #fff;
+}
+
+
+#titulo p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px;
+    color: #fff;
+}
+
+#sec_desc{
+    height: 80vh;
+    background-color: white;
+    background-size: cover;
+    margin-top: 0px;
+    padding: 60px;
+}
+
+#sec_desc img{
+    width: 340px;
+    height: auto;
+}
+
+
+
+#sec_desc h1{
+    font-size: 56px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    text-align: left;
+    color: #2e84be;
+
+}
+
+#sec_desc p{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align:left;
+}
+
+
+
+
+
+
+
+
+#sec_values{
+    background: linear-gradient(to bottom, #cfe4ff, #267be9);
+    height: 60vh;
+    padding: 40px;
+}
+
+#sec_values div{
+    background-color: rgba(7, 63, 95, 0.575);
+    align-items: center;
+    padding: 30px;
+    height: 440px;
+    border-radius: 10px;
+
+    transition: 0.3s;
+}
+
+
+#sec_values div:hover{
+    transition: 0.3s;
+    box-shadow: 20px 10px 20px 0 rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}
+
+#sec_values img{
+    width: 100px;
+    margin-bottom: 30px;
+
+}
+
+#sec_values p{
+    padding: 20px;
+    font-size: 20px;
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+
+#sec_service{
+    height: 50vh;
+    background-color: white;
+    padding: 50px;
+    padding-bottom: 200px;
+}
+
+#sec_service h1{
+    font-size: 56px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 100px;
+    color: #2e84be;
+    margin-bottom: 30px;
+}
+
+#sec_service p{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 35px;
+    margin-bottom: 20px;
+    
+}
+
+#sec_service a{
+    background-color: rgba(96, 166, 223, 0.555);
+    font-size: 16px;
+    padding: 15px;
+
+    text-decoration: none;
+    border-radius: 50px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    transition: 0.3s;
+}
+
+#sec_service a:hover{
+    transition: 0.2s;
+    box-shadow: 6px 10px 20px 0 rgba(0, 0, 0, 0.5);
+    background-color: rgb(96, 104, 223);
+
+}
+
+
+
+
+#sec_inv{
+    height: 50vh;
+    background-color: white;
+    padding: 90px;
+}
+
+#sec_inv p{
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 20px;
+    line-height: 50px;
+}
+
+
+
+
+
+footer{
+    height: 100vh;
+    background-image: url(img/footer_fondo.png);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+footer img{
+    width: 200px;
+    height: auto;   
+}
+
+footer h1{
+
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    color: rgb(247, 247, 247);
+}
+
+
+footer p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 35px;
+    color: white;
+}
+
+.caja_rd{
+    margin-bottom: 30px;
+}
+
+.social_media{
+    width: 50px;
+    height: auto;
+    margin-left: 0px;
+    margin-right: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.social_media:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.logo_footer img{
+    width: 300px;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+#caja_sn{
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+.filas{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    clear: both;
+    display: table;
+}
+
+
+[class^="col-"]{
+    float: left;
+    text-align: center;
+}
+
+.col-12{width: 100%;}
+.col-11{width: 91.66%;}
+.col-10{width: 83.33;}
+.col-9{width: 75%;}
+.col-8{width: 66.66%;}
+.col-7{width: 58.33%;}
+.col-6{width: 50%;}
+.col-5{width: 41.66%;}
+.col-4{width: 33.33%;}
+.col-3{width: 25%;}
+.col-2{width: 16.66%;}
+.col-1{width: 8.33%;}
+
+@media(min-width:1200px){
+
+    body{
+        background-image: url(img/pixelcut-export.png);
+        background-repeat: repeat;
+    }
+
+    #titulo{
+        padding-left: 100px;
+        margin-bottom: 100px;
+    }
+
+    #titulo h1 {
+        text-align: left;
+        font-size: 200px;
+    }
+
+    #titulo p{
+        text-align: left;
+    }
+    
+
+    #desc_caja_tt{
+        width: 700px;
+    }
+
+    #sec_service p{
+        text-align: left;
+    }
+
+    #sec_values div{
+        width: 230px;
+        margin-left: 80px;
+        margin-right: 50px;
+    }
+
+    #img_div_service{
+        position: relative;
+        width: 450px;
+        height: auto;
+    }
+
+    #img_div_service img{
+        width: 100%;
+        height: auto;
+        position: relative;
+        z-index: 2;
+    }
+
+    #service_circulo{
+        position: absolute;
+        top: 60px;
+        left: -60px;
+        right: 0px;
+        bottom: 0;
+        border-radius: 50%;
+        width: 380px;
+        height: 380px;
+        background-color: rgb(11, 96, 153);
+        z-index: 1;
+        box-shadow: -30px 10px 20px 0 rgba(112, 73, 73, 0.4);
+
+    }
+
+    #sec_service a{
+        margin-right: 420px;
+    }
+
+    #sec_service h1{
+        text-align: left;
+    }
+
+
+
+    #inv_div_p{
+        width: 400px;
+        height: 500px;
+        margin-left: 360px;
+        position: relative;
+
+    }
+
+    #inv_div_p p{
+        position: absolute;
+    }
+    
+    #sec_inv img{
+        position: absolute;
+    }
+
+    #star1{
+        position: absolute;
+        left: 370px;
+        bottom: 100px;
+    }
+
+    #star2{
+        position: absolute;
+        right: 380px;
+        bottom: 100px;
+    }
+
+
+
+
+    .p1_footer {
+        margin-bottom: 400px;
+    }
+
+    hr{
+        margin-top: 0px;
+        width: 150px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+
+
+    .col-lg-12{width: 100%;}
+    .col-lg-11{width: 91.66666667%;}
+    .col-lg-10{width: 83.33333333%;}
+    .col-lg-9{width: 75%;}
+    .col-lg-8{width: 66.66666667%;}
+    .col-lg-7{width: 58.33333333%;}
+    .col-lg-6{width: 50%;}
+    .col-lg-5{width: 41.66666667%;}
+    .col-lg-4{width: 33.33333333%;}
+    .col-lg-3{width: 25%;}
+    .col-lg-2{width: 16.66666667%;}
+    .col-lg-1{width: 8.33333333%;}
+}
+
+@media(max-width:1199px) and (min-width:992px){
+
+    body{
+        background-image: url(img/pixelcut-export.png);
+        background-repeat: repeat;
+        }
+
+    #titulo{
+        padding-left: 100px;
+    }
+
+    #titulo h1 {
+        text-align: left;
+    }
+
+    #titulo p{
+        text-align: left;
+        font-size: 28px;
+    }
+
+    #sec_desc p{
+        margin-bottom: 80px;
+    }
+
+    #sec_values div{
+        width: 220px;
+        margin-right: 10px;
+        margin-left: 50px;
+    }
+
+
+
+    #img_div_service{
+        position: relative;
+    }
+
+    #sec_service img{
+        margin-left: -60px;
+        margin-top: 60px;
+        width: 400px;
+        height: auto;
+        position: relative;
+        z-index: 2;
+    }
+
+    #service_circulo{
+        position: absolute;
+        top: 160px;
+        left: -120px;
+        right: 0px;
+        bottom: 0;
+        border-radius: 50%;
+        width: 330px;
+        height: 330px;
+        background-color: rgb(11, 96, 153);
+        z-index: 1;
+        box-shadow: -30px 10px 20px 0 rgba(0, 0, 0, 0.4);
+    }
+
+    #sec_service p{
+        text-align: center;
+    }
+
+    #sec_service h1{
+        text-align: center;
+    }
+
+    #star1{
+        width: 0;
+        visibility: hidden;
+    }
+
+    #star2{
+        width: 0;
+        visibility: hidden;
+    }
+
+    #sec_inv{
+        background-image: url(img/stars3.png);
+        background-position: center;
+    }
+
+    footer{
+        height: 109vh;
+    }
+
+
+    .p1_footer {
+        margin-bottom: 40px;
+    }
+
+    hr{
+        width: 150px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+
+
+
+
+    .col-md-12{width: 100%;}
+    .col-md-11{width: 91.66666667%;}
+    .col-md-10{width: 83.33333333%;}
+    .col-md-9{width: 75%;}
+    .col-md-8{width: 66.66666667%;}
+    .col-md-7{width: 58.33333333%;}
+    .col-md-6{width: 50%;}
+    .col-md-5{width: 41.66666667%;}
+    .col-md-4{width: 33.33333333%;}
+    .col-md-3{width: 25%;}
+    .col-md-2{width: 16.66666667%;}
+    .col-md-1{width: 8.33333333%;}
+}
+
+@media(max-width:991px) and (min-width:768px){
+
+    body{
+        background-image: url(img/pixelcut-export.png);
+        background-repeat: no-repeat;
+    }
+
+    nav ul li a{
+        font-size: 35px;
+    }
+
+    nav ul li{
+        margin-top: 30px;
+    }
+
+    #logo img{
+        margin-left: 45px;
+        height: 180px;
+    }
+
+    #titulo h1 {
+        text-align: center;
+    }
+
+    #titulo p{
+        text-align: center;
+    }
+
+    #sec_desc img{
+        width: 0;
+        visibility: hidden;
+    }
+
+
+    #sec_desc p{
+        margin-bottom: 70px;
+    }
+
+
+
+    #sec_values div{
+        width: 500PX;
+        margin-top: 30px;
+        margin-left: 110px;
+        margin-right: 50px;
+    }
+
+
+
+
+    #sec_values p{
+        font-size: 30px;
+    }
+
+    
+    #sec_service h1{
+        text-align: center;
+        margin-bottom: 70px;
+    }
+
+    #sec_service img{
+        width: 0;
+        visibility: hidden;
+    }
+
+    #sec_inv img{
+        width: 0;
+        visibility: hidden;
+    }
+
+    #sec_inv{
+        background-image: url(img/stars3.png);
+        background-position: center;
+    }
+
+    footer{
+        height: 109vh;
+    }
+    
+    hr{
+        width: 150px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    
+    .col-sm-12{width: 100%;}
+    .col-sm-11{width: 91.66666667%;}
+    .col-sm-10{width: 83.33333333%;}
+    .col-sm-9{width: 75%;}
+    .col-sm-8{width: 66.66666667%;}
+    .col-sm-7{width: 58.33333333%;}
+    .col-sm-6{width: 50%;}
+    .col-sm-5{width: 41.66666667%;}
+    .col-sm-4{width: 33.33333333%;}
+    .col-sm-3{width: 25%;}
+    .col-sm-2{width: 16.66666667%;}
+    .col-sm-1{width: 8.33333333%;}
+}
+
+@media(max-width:767px){
+
+    body{
+        background-image: url(img/pixelcut-export.png);
+        background-repeat: no-repeat;
+    }
+
+    nav ul li a{
+        font-size: 30px;
+    }
+    nav ul li{
+        margin-top: 20px;
+        align-items: center;
+
+    }
+
+    #logo img{
+        margin-left: 25px;
+        height: 100px;
+    }
+
+    #titulo h1 {
+        text-align: center;
+    }
+
+    #titulo p{
+        text-align: center;
+    }
+
+    #sec_values div{
+        width: 300px;
+        margin-top: 30px;
+        margin-left: 53px;
+        margin-right: 50px;
+    }
+
+
+    #sec_desc img{
+        width: 0;
+        visibility: hidden;
+        }
+
+    #sec_service a{
+        margin-left: 0px;
+    }
+
+    #sec_serive h1{
+        text-align: left;
+    }
+
+    #sec_service img{
+        width: 0;
+        visibility: hidden;
+    }
+
+    #sec_inv img{
+        width: 0;
+        visibility: hidden;
+    }
+
+    
+
+    #sec_inv{
+        background-image: url(img/stars3.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+
+    footer{
+        height: 118vh;
+    }
+    
+    hr{
+        width: 150px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    
+
+
+
+    .col-xs-12{width: 100%;}
+    .col-xs-11{width: 91.66666667%;}
+    .col-xs-10{width: 83.33333333%;}
+    .col-xs-9{width: 75%;}
+    .col-xs-8{width: 66.66666667%;}
+    .col-xs-7{width: 58.33333333%;}
+    .col-xs-6{width: 50%;}
+    .col-xs-5{width: 41.66666667%;}
+    .col-xs-4{width: 33.33333333%;}
+    .col-xs-3{width: 25%;}
+    .col-xs-2{width: 16.66666667%;}
+    .col-xs-1{width: 8.33333333%;}
+}
